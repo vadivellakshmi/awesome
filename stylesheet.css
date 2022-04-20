@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+
+}
+img{
+    width: 100%;
+}
+
+.bgimg{
+    background-image: url(image/bg1.jpg);
+    height: 80vh;
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.bgimg1{
+    background-image: url(image/bg2.jpg);
+    height: auto;
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.bgimg2{
+    background-image: url(image/bg3.jpg);
+    height: auto;
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.bgimg3{
+    background-image: url(image/bg5.jpg);
+    height: fit-content;
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.bgimg4{
+    background-image: url(image/bg6.jpg);
+    height: fit-content;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.bgimg5{
+    background-image: url(image/map.jpg);
+    height: fit-content;;
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.bgimg6{
+    background-image: url(image/bg7.jpg);
+    height: fit-content;;
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+.border-style{
+    border: 2px dashed white;
+    
+    
+}
+.border-style-blk{
+    border: 2px dashed black;
+    
+    
+}
+
+.btb{
+    border-top: 5px solid #1FB5AC;
+    border-bottom: 5px solid #1FB5AC;
+
+}
+
+.btb-white{
+
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+.bt{
+
+    border-top: 5px solid #1FB5AC;
+    width: fit-content;
+
+
+}
+
+.txtcolor{
+
+    color:#1FB5AC;;
+}
+
+.pdtop{
+    padding: 60px 0;
+}
+.center{
+    align-items: center;
+}
+.txt-size{
+
+    font-size: 15px;
+}
+
+.txt-size-big{
+
+    font-size: 50px;
+}
+
+
+.po-txt1{
+    position: absolute;
+    top:30px;
+}
+
+.po-txt2{
+    position: absolute;
+    top:60px;
+}
+
+.po-txt3{
+
+    position: absolute;
+    top: 130px;
+}
+
+.nav-item a:hover, .active{
+
+    background-color: #1FB5AC;
+    color: white;
+    border-bottom: 1px solid black;
+}
+
+
+.top{
+width: 0;
+border-bottom: 30px solid #1FB5AC;
+border-left: 52px solid transparent;
+border-right: 52px solid transparent; }
+
+.bg-color{
+width: 104px;
+height: 60px;
+background-color: #1FB5AC;
+position: relative;
+ }
+
+.bottom{
+width: 0;
+border-top: 30px solid #1FB5AC;
+border-left: 52px solid transparent;
+border-right: 52px solid transparent;
+ }
+
+
+.fa-thumbs-up, .fa-gift, .fa-tv{
+
+    font-size: 30px;
+    position: absolute;
+   top: 20%;
+   right: 30%;
+    
+}
+
+
+.progress-circle {
+    font-size: 20px;
+    margin: 20px;
+    position: relative; /* so that children can be absolutely positioned */
+    padding: 0;
+    width: 10em;
+    height: 10em;
+    background-color: #F2E9E1; 
+    border-radius: 50%;
+    line-height: 5em;
+ }
+ 
+ .progress-circle:after{
+     border: none;
+     position: absolute;
+     top: 1em;
+    left: 1em;
+     text-align: center;
+     display: block;
+     border-radius: 50%;
+     width: 8em;
+     height: 8em;
+     background-color: white;
+     content: " ";
+ }
+
+ .progress-circle span {
+     position: absolute;
+     line-height: 3em;
+     width: 8em;
+     font-size: larger;
+    
+     text-align: center;
+     display: block;
+     color:#1FB5AC;
+     z-index: 2;
+ }
+ .left-half-clipper { 
+
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    position: absolute; 
+    clip: rect(0, 8em, 8em, 0.75em); 
+ }
+ .progress-circle.over50 .left-half-clipper {
+    clip: rect(auto,auto,auto,auto);
+ }
+
+ .value-bar {
+  
+    position: absolute;
+    clip: rect(0, 5em, 10em, 0);
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 3em solid #53777A; 
+    box-sizing: border-box;}
+
+    .value-bar1 {
+        border: 3em solid green;
+
+    }
+
+    .value-bar2 {
+        border: 3em solid orange;
+
+    }
+
+    .value-bar3 {
+        border: 3em solid yellow;
+
+    }
+    .progress-circle.over50 .first50-bar {
+        
+        position: absolute; 
+        clip: rect(0, 8em, 8em, 8em);
+        background-color: #53777A;
+        border-radius: 50%;
+        width: 10em;
+        height: 10em;
+     }
+     .progress-circle:not(.over50) .first50-bar{ display: none; }
+
+     .progress-circle.p33 .value-bar { transform: rotate(119deg); }
+
+     .progress-circle.p66 .value-bar { transform: rotate(238deg); }
+
+     .progress-circle.p77 .value-bar { transform: rotate(277deg); }
+
+     .progress-circle.p95 .value-bar { transform: rotate(360deg); }
+     
+
+     .dash{
+
+        border-top: 3px solid white;
+        width: 15%;
+        
+     }
+     .square{
+     border: 2px solid #1FB5AC;
+     border-radius: 15px; }
+
+
+.carousel-indicators [data-bs-target] {
+
+    height: 15px;
+    width: 15px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+border: 1px solid #1FB5AC;
+}
+
+.carousel-indicators .active  {
+
+background-color: #1FB5AC;
+}
+
+.fa-mug-saucer, .fa-check-double, .fa-trophy, .fa-user, .fa-pen, .fa-flask, .fa-pen-nib, .fa-mobile, .fa-gear, .fa-file, .fa-quote-right, .fa-quote-left, .fa-youtube, .fa-location-dot, 
+.fa-envelope, .fa-mobile-button, .fa-skype
+{
+
+    font-size: 50px;
+text-align: center;
+    
+   
+}
+
+.bg-none{
+
+    background-color:unset;
+}
+
+.border-color{
+    border: 3px solid #1FB5AC;
+}
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 150px solid #1FB5AC;
+}
+
+
+.arrow {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 8px;
+    background-color: white;
+    
+  }
+
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  position: absolute;
+
+ right: -10px;
+ top: 40px;
+
+    
+  }
+
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    position: absolute;
+    top: 40px;
+    left: -10px;
+  }
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    position: absolute;
+
+    left: 40px;
+    bottom: 8px;
+  
+  }
+
+  .arrow-position{
+
+    position: relative;
+  }
+
+  .square{
+    height: 15x;
+    width: 15px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+  }
+  .square1{
+    height: 100px;
+    width: 100px;
+  
+    color: white;
+  }
+
+  
+
+@media only screen and (max-width:500px){
+
+    .po-txt3{
+
+        position: absolute;
+        top: 120px;
+    }
+
+    .circle{
+
+  margin: 5px 0;
+    }
+}
