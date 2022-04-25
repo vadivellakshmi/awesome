@@ -396,14 +396,14 @@ text-align: center;
   .img-client{
       height: 100vh;
   }
+  .carousel-caption{
+      left: 15px;
+      right: 15px;
+  }
 
   /**.navbar{
       position: fixed; top: 0; z-index: 9999;} */
-
-    .carousel-caption{
-      left: 0;
-      right: 0;
-  }
+  
 
 @media only screen and (max-width:500px){
 
@@ -433,7 +433,11 @@ text-align: center;
 
     }
     .img-client{
-        height: 150vh;
+        height: 130vh;
+
     }
   
+    .carousel-caption{
+       top: 3px;
+    }
 }
