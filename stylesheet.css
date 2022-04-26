@@ -170,7 +170,7 @@ border-right: 52px solid transparent;
 width: 104px;
 height: 60px;
 background-color: #1FB5AC;
-position: relative;
+
  }
 
 .bottom{
@@ -183,10 +183,8 @@ border-right: 52px solid transparent;
 
 .fa-thumbs-up, .fa-gift, .fa-tv{
 
-    font-size: 30px;
-    position: absolute;
-   top: 20%;
-   right: 30%;
+    font-size: 30px  !important;
+  
     
 }
 
@@ -440,4 +438,6 @@ text-align: center;
     .carousel-caption{
        top: 3px;
     }
+
+ 
 }
